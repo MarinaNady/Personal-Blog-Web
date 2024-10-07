@@ -1,0 +1,62 @@
+.header{
+    background:beige;
+    height:66px;
+    padding: 0%;
+}
+.header .logo img{
+    float: left;
+    width: 66px;
+    height: 66px;
+}
+.header ul{
+    float: right;
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    border: 1px;
+
+}
+.header ul li{
+    float: left;
+}
+
+.header ul li a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+    display: block;
+    padding: 21px;
+    text-decoration: none;
+}
+
+.header ul li a:hover{
+    background: black;
+    color: white;
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.Heading h1{
+    /* color: rgb(50, 200, 255); */
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.Heading h3{
+    color:rgb(50, 200, 255);
+    /* font-size: 60px; */
+    padding: 0px;
+}
+
+@media (max-width: 200px){
+    .header ul li a{
+        font-size: 10px;
+        padding: 1px;
+        
+    }
+}

@@ -1,0 +1,16 @@
+.about-author {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.about-author h2{
+    margin-left: 240px;
+}
+.about-author img{
+    border-radius: 50px;
+}
+.about-author p{
+    margin-left: 150px;
+    margin-bottom: 100px;
+}

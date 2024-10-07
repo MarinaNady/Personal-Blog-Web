@@ -1,0 +1,112 @@
+
+@import url(Header.css);
+@import url(Footer.css);
+@import url(Author.css);
+@import url(violin.css);
+*{
+    margin: Opx;
+    padding: 0px;
+    font-family: poppins;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.Box{
+    width:350px;
+    background-color:#ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+    
+}
+
+.Box:hover{
+    font-size: 110%;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+.image img{
+    width:350px;
+    height:300px;
+    object-fit: cover;
+    object-position: center;
+}
+.image figcaption {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+.Text{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Text button {
+    background-color: #e91e63; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 29px;
+    /* width: 250px; */
+    border-radius: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
+.Text button a{
+    color:white;
+    font-weight: 700;
+}
+.Text button:hover {
+    
+    background: none;
+}
+.Text button a:hover{
+    color: black;
+}
+.foot-container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+@media (max-width: 200px){
+    .Container{
+        width:400px;
+        background-color:#ffffff;
+        border: 1px solid #ececec;
+        margin: 20px;
+        
+    }
+    
+}

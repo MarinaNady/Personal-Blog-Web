@@ -1,0 +1,138 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    /* box-sizing: border-box; */
+}
+
+.V-header{
+    background:beige;
+    height:66px;
+    padding: 0%;
+}
+.V-header .logo img{
+    float: left;
+    width: 66px;
+    height: 66px;
+} 
+
+
+.V-header .navB{
+    float: right;
+    list-style: none;
+}
+
+.V-header .navB li{
+    float: left;
+
+}
+
+.V-header .navB li a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+    display: block;
+    padding: 21px;
+    text-decoration: none;
+}
+
+.V-header .navB li a:hover{
+    background: black;
+    color: white;
+}
+
+.heading{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin:20px auto;
+}
+
+.heading h1{
+    font-size: 50px;
+    margin: 20px;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+    padding:10px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+    flex:1;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 100em;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.about-image:hover img{
+    transform: scale(1.2);
+}
+.about-content{
+    flex:1;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color:#333;
+}
+
+.social-links a{
+	display: inline;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: black;
+	transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+	color: white;
+	background-color: black;
+}
+
+.about-content blockquote{
+    display: grid;
+    color:  brown;
+    font-style: italic;
+}
+
+@media (max-width: 200px){
+    .about-image{
+        flex:1;
+        margin-right: 10px;
+        overflow: hidden;
+    }
+    .about-image img{
+        max-width: 80em;
+        height: auto;
+        display: block;
+        transition: 0.5s ease;
+    }
+    .about-content p{
+        font-size: x-small;
+    }
+    
+}
